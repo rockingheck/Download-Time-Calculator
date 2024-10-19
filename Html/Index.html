@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Time Calculator</title>
+    <link rel="icon" href="/Download Calculator/Images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/Download Calculator/CSS/Stylesheet.css">
+</head>
+<body>
+
+    <div class="container">
+    <h1>Type the required information to calculate the download time:</h1>
+    <div id="calculate">
+    <input type="number" name="fileSize" id="fileSize" placeholder="Enter File Size (Gb)">
+    <input type="number" name="networkSpeed" id="networkSpeed" placeholder="Enter Network Speed (Mb/s)">
+    <button id="submit">Find Download Speed</button>
+    </div>
+    </div>
+
+    <section id="results">
+    <p id="hours"></p>
+    <p id="minutes"></p>
+    <p id="seconds"></p>
+    </section>
+    
+    <script src="/Download Calculator/Javascript/script.js"></script>
+</body>
+</html>

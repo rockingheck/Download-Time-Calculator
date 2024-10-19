@@ -1,0 +1,156 @@
+#fileSize {
+    border: 3px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    background-color:hsl(22, 82%, 56%);
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, border-color 0.53;
+}
+
+#fileSize:focus {
+    border: 3px solid hsl(234, 100%, 51%);
+    border-radius: 8px;
+    padding: 5px;
+    background-color:hsl(234, 100%, 51%);
+    color:rgb(47, 232, 245);
+}
+
+#fileSize:hover {
+    border: 3px solid hsl(0, 89%, 65%);
+    border-radius: 8px;
+    padding: 5px;
+    color: rgb(47, 232, 245);
+}
+
+#fileSize:focus:hover {
+    border: 3px solid hsl(234, 100%, 51%);
+    border-radius: 8px;
+    padding: 5px;
+    background-color:hsl(229, 83%, 49%);
+    color:rgb(47, 232, 245);
+}
+
+#fileSize::placeholder {
+    padding-left: 30px;
+    color: rgb(238, 255, 0);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#fileSize:focus::placeholder {
+    padding-left: 30px;
+    color: rgb(72, 202, 253);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Hide arrows in Chrome and Safari */
+#fileSize::-webkit-inner-spin-button,
+#fileSize::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Remove default appearance */
+    margin: 0; /* Reset margin */
+}
+
+#networkSpeed {
+    border: 3px solid red;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none;
+    background-color:hsl(22, 82%, 56%);
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s, border-color 0.53;
+}
+
+#networkSpeed:focus {
+    border: 3px solid hsl(234, 100%, 51%);
+    border-radius: 8px;
+    padding: 5px;
+    background-color:hsl(234, 100%, 51%);
+    color:rgb(33, 240, 255);
+}
+
+#networkSpeed:hover {
+    border: 3px solid hsl(0, 89%, 65%);
+    border-radius: 8px;
+    padding: 5px;
+    color: rgb(47, 232, 245);
+}
+
+#networkSpeed:focus:hover {
+    border: 3px solid hsl(234, 100%, 51%);
+    border-radius: 8px;
+    padding: 5px;
+    background-color:hsl(229, 83%, 49%);
+    color:rgb(47, 232, 245);
+}
+
+#networkSpeed::placeholder {
+    color: rgb(238, 255, 0);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#networkSpeed:focus::placeholder {
+    color: rgb(72, 202, 253);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Hide arrows in Chrome and Safari */
+#networkSpeed::-webkit-inner-spin-button,
+#networkSpeed::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Remove default appearance */
+    margin: 0; /* Reset margin */
+}
+
+body {
+    background-color: rgb(7, 63, 85);
+    color: rgb(177, 202, 219);
+    font-family: sans-serif;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+#submit {
+    width: 230px;
+    height:  50px;
+    background-color: hsl(22, 82%, 56%);
+    border: 3px solid red;
+    border-radius: 8px;
+    color: rgb(238, 255, 0);
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+button {
+    cursor: pointer;
+    margin: auto;
+}
+
+p {
+    font-size: xx-large;
+    border: 3px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(20, 130, 220);
+    height: 50px;
+    align-items: center;
+    min-width: 300px;
+    max-width: fit-content;
+    padding: 5px;
+    display: none;
+    padding: 5px;
+}
+
+#results {
+    margin-left: 540px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
